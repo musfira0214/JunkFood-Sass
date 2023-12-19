@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "lato-black";
+  src: url(fonts/Lato-Regular.ttf);
+}
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(junk-img/3.jpg);
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "lato-black";
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding-right: 5rem;
+  cursor: pointer;
+}
+header nav ul li:hover {
+  border-bottom: 2px solid rgb(247, 114, 5);
+}
+header #content {
+  padding: 10rem;
+  font-family: "lato-black";
+}
+header #content p {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+}
+header #content #button {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.7rem;
+}
+header #content #button #btn-1 {
+  padding: 1rem 1.1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(247, 114, 5);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+header #content #button #btn-2 {
+  color: orangered;
+  padding: 0.1rem 1.2rem;
+  border-radius: 30px;
+  color: rgb(247, 114, 5);
+  border: 1px solid rgb(247, 114, 5);
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+header #content #button #btn-2:hover {
+  background-color: rgb(247, 114, 5);
+  color: white;
+}
+
+main section {
+  border: 1px solid black;
+  padding: 5rem;
+  color: rgb(105, 102, 102);
+  font-family: "lato-black";
+}
+main section #pera {
+  font-size: 2rem;
+  width: 45%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+main section #pera::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid rgb(247, 114, 5);
+  width: 15%;
+  padding-top: 2%;
+  margin: 0 auto;
+}
+main section #food-content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+main section #icons {
+  display: flex;
+  justify-content: space-between;
+}
+main section #icons #part-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 28%;
+}
+main section #icons #part-1 i {
+  font-size: 2rem;
+  color: rgb(247, 114, 5);
+}
+main section #icons #part-1 #icons-pera {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+main #img-section #images {
+  display: flex;
+}/*# sourceMappingURL=junkfood.css.map */
